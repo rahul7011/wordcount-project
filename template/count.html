@@ -1,0 +1,12 @@
+<h1>your words counts are:{{words}}</h1>
+<h3>your text:</h3>
+{{text}}
+<br>
+<a href="{% url 'home' %}">Try Again!</a>
+<br><br>
+<strong>letters and repeatance:</strong>
+{% for word,count in sortedwords %}
+<br>
+{{word}}-{{count}}
+<br>
+{% endfor %}
