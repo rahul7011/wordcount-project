@@ -6,7 +6,7 @@ import operator
 
 def home(request):
     return render(request,'home.html')
-
+#ABOUT FUNCTION
 
 def about(request):
     return render(request,'about.html')
